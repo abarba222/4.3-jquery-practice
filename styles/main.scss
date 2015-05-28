@@ -1,6 +1,7 @@
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/neat/app/assets/stylesheets/neat';
 
+/*
 // Typography
 $base-font-family: $helvetica;
 
@@ -18,4 +19,31 @@ body {
   font-family: $base-font-family;
   background-color: $base-background-color;
   color: $base-font-color;
+}
+*/
+
+body{
+  @include outer-container(500px);
+  margin:200px;
+}
+
+.head{
+  display:inline-block;
+}
+
+.previous{
+  float:left;
+}
+
+.next{
+  float:right;
+}
+
+
+
+
+
+.day{
+  list-style:none;
+  display:inline-block;
 }
